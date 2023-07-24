@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 550;
+  }
+  body{
+    /* padding: 50px 100px; */
+    /* background-image: url(bci3.jpg); */
+    background: linear-gradient(115deg,red,yellow);
+    width: 100%;
+    height: 100vh;
+    font-family: "poppins",sans-serif;
+    
+  }
+  h1{
+    text-align: center;
+    color:rgb(4, 2, 2);
+    font-size: 50px;
+    /* background-color: #1d4d63; */
+    background: linear-gradient(115deg,yellow,red);
+    padding: 10px 10px;
+    margin-left: 285px;
+    margin-right: 285px;
+    /* border: 1px solid #ccc; */
+    font-weight: bolder;
+  }
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* background-color: #234e5e; */
+      background: linear-gradient(115deg,yellow,red);
+      /* border: 2px solid #ccc; */
+      padding: 10px 10px;
+      margin-left: 285px;
+      margin-right: 285px;
+    }
+    
+    .form-group {
+      margin-bottom: 1rem;
+      margin-top: 0.2rem;
+    }
+    .form-group input{
+        background: #635d5d;
+    }
+    .form-group input:hover{
+      background: #fff;
+    }
+    
+    input[type="number"] {
+        margin-left: 10px;
+      width: 80%;
+      /* padding: 0.4rem; */
+        padding: 10px;
+      border-radius: 0.25rem;
+      border: 2px solid #635d5d;
+    }
+    #unit{
+      font-weight: 400;
+      padding: 10px 2px;
+    }
+    #unit option{
+        color: #1d4d63;
+    }
+    #button{
+      background:grey;
+      /* color:#f2f2f2; */
+      padding: 10px 15px ;
+      border-radius: 25px;
+      font-size: 25px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
+    #button:hover{
+      background-color: #fffbff;
+      color: #083557;
+      /* border: aliceblue; */
+      border-radius: 25px;
+      font-size: 25px;
+      transition: .2s ease;
+      cursor: pointer;
+    }
